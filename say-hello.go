@@ -1,7 +1,7 @@
 package go_modules
 
-func SayHello() string {
-	return "Hello, world!"
+func SayHello(name string) string {
+	return "Hello, " + name + "!"
 }
 
 func SayName(name string) string {
